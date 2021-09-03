@@ -18,6 +18,7 @@ public class Farm {
      */
     public static void main(String[] args) {
         //create instances of all types of animals and calls their toString method
+        //the names are random and the variable names are the initial of the animal in front of the animals name
         Ostrich OsLarry = new Ostrich("Larry", 55);
         System.out.println(OsLarry.toString());
         Penguin PGeorge = new Penguin("George", 23);
